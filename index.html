@@ -65,17 +65,17 @@
     </style>
   </head>
   <body>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
+    <nav role="navigation" aria-label="Main">
+      <a href="#" role="menuitem">Home</a>
+      <a href="#" role="menuitem">About</a>
+      <a href="#" role="menuitem">Contact</a>
     </nav>
-    <div class="cta">
-      <button class="button">Button 1</button>
-      <button class="button">Button 2</button>
-      <button class="button">Button 3</button>
+    <div class="cta" role="region" aria-label="Call to action">
+      <a href="https://example.com"><button class="button">Button 1</button></a>
+      <a href="https://example.org"><button class="button">Button 2</button></a>
+      <a href="https://example.net"><button class="button">Button 3</button></a>
     </div>
-    <div class="container">
+    <div class="container" role="main">
       <img src="https://via.placeholder.com/800x400.png?text=Sample+Image" alt="Sample Image">
       <h1 class="title">Title</h1>
       <p class="subtitle">Subtitle</p>
